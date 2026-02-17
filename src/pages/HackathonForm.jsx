@@ -37,39 +37,43 @@ export default function HackathonForm() {
     "Other PG Computing Program"
   ];
 
-  const domains = [
-    "Domain 1: Women's Safety & Social Security",
-    "Domain 2: Healthcare Technology",
-    "Domain 3: Sustainable Environment & Green Technology",
-    "Domain 4: AI & Automation"
-  ];
+const domains = [
+  "Domain 1: Women's Safety & Social Security",
+  "Domain 2: Healthcare Technology",
+  "Domain 3: Sustainable Environment & Green Technology",
+  "Domain 4: AI & Automation"
+];
 
-  const problemStatements = {
-    "Domain 1: Women's Safety & Social Security": [
-      "Cyber Safety Awareness & Phishing Detection Platform",
-      "Night Safety Risk Prediction System",
-      "AI-Based Personal Safety Companion",
-      "Cyber Harassment Detection & Prevention Platform"
-    ],
-    "Domain 2: Healthcare Technology": [
-      "AI-Based Early Disease Risk Prediction",
-      "Smart Emergency Response Coordination",
-      "AI Sleep Health Monitoring",
-      "Remote Patient Monitoring Dashboard"
-    ],
-    "Domain 3: Sustainable Environment & Green Technology": [
-      "AI Food Waste Reduction",
-      "Smart Energy Optimization",
-      "Smart Building Sustainability",
-      "AI Soil Health Advisor"
-    ],
-    "Domain 4: AI & Automation": [
-      "Intelligent Resume Screening",
-      "AI Academic Integrity Detection",
-      "Personalized Learning Path Generator",
-      "AI Skill Intelligence Platform"
-    ]
-  };
+const problemStatements = {
+  "Domain 1: Women's Safety & Social Security": [
+    "Cyber Safety Awareness & Phishing Detection Platform",
+    "Voice-Based Safety Assistant",
+    "AI-Powered Public Transport Safety Intelligence System",
+    "Smart Campus Safety Ecosystem"
+  ],
+
+  "Domain 2: Healthcare Technology": [
+    "AI-Based Laboratory Test Interpretation Assistant",
+    "AI-Based Mental Health Early Warning System",
+    "Smart Rural Healthcare Access Platform",
+    "AI-Based Medication Adherence Tracker"
+  ],
+
+  "Domain 3: Sustainable Environment & Green Technology": [
+    "AI-Powered Food Waste Reduction & Redistribution",
+    "AI-Based Water Usage Optimization Platform",
+    "Climate Risk Early Alert System",
+    "AI-Based Soil Health & Sustainable Farming Advisor"
+  ],
+
+  "Domain 4: AI & Automation": [
+    "Intelligent Resume Screening & Skill Matching Platform",
+    "AI Code Quality Assistant for Students",
+    "AI Meeting Intelligence Assistant",
+    "Autonomous Workflow Automation Builder (No-Code AI)"
+  ]
+};
+
 
   const [formData, setFormData] = useState({
     teamName: "",
